@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+*{
+	
+	font-family: 'Josefin Sans', sans-serif;
+	box-sizing: border-box;
+}
+    {
+        border-radius: 5px;
+    }
+    body{
+        background-color: black;
+        text-align: center;
+        margin: auto;
+        padding: auto;
+        justify-content: center;
+        color: aliceblue;
+    }
+    table{
+        text-align: center;
+        
+        margin: auto;
+        width:300px;
+        height: 300px;
+        margin-top:20px;
+        
+       
+    }
+    input[type="text"],select,input[type="email"]
+    {
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+font-size: 24px;
+border-radius: 18px;
+    }
+    section{
+        text-align: center;
+        background-color:transparent;
+        width:400px;
+        height: 340px;
+        margin: auto;
+        margin-top: 70px;
+        justify-content: center;
+        border:3px solid aqua;
+        border-radius: 9px;
+      
+        
+    }
+    h1{
+        font-size: 50px;
+    }
+   button{
+	
+}
+</style>
+</head>
+<body>
+    <h1>
+        Enter Your Details To Hire You
+    </h1>
+    <section>
+		<form action="hirevalid.jsp">
+            <table>
+                <tr><td><input type="text" name="uname" placeholder="            First Name"></td></tr>
+                <tr><td><input type="text" name="lname" placeholder="            Last Name"></td></tr>
+                <tr><td><input type="email" name="mail" placeholder="                 Mail" required></td></tr>
+                <tr><td><input type="text" name="exper" placeholder="     Experience In Years"></td></tr>
+                <!-- <tr><td><button type="button">SUBMIT</button></a></td></tr> -->
+                <tr><td><input style="background-color:#00f1f9;
+                    color: white;
+                    text-decoration: none;
+                    border: 2px solid transparent;
+                    font-weight: bold;
+                    font-size: 18px;
+                    padding: 13px 30px;
+                    border-radius: 30px;
+                    transition: .4s; " type="submit" value="Submit" class="button"></td></tr>
+            </table>
+        </form>
+    </section>
+</body>
+</html>
